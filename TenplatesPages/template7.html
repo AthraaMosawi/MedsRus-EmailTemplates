@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta http-equiv="Content-Type" content="text/html charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <style type="text/css">
       @media screen and (max-width: 600px) {
         .mainImg {
@@ -36,28 +35,15 @@
   </head>
   <body
     style="
-      font-family: 'Open Sans', sans-serif;
+      font-family: 'Times New Roman', Times, serif;
       color: #384860;
       line-height: 2rem;
     "
   >
-    <p
-      style="
-        font-family: 'Open Sans', sans-serif;
-        color: #384860;
-        line-height: 2rem;
-      "
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap"
-      rel="stylesheet"
-    />
-
     <title>Email Template</title>
     <table
       style="
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Times New Roman', Times, serif;
         color: #384860;
         margin: 0;
         padding: 0;
@@ -132,10 +118,8 @@
                       <td
                         style="
                           color: #384860;
-
-                          display: flex;
-                          justify-content: space-between;
                           margin: 0.5rem 1.8rem;
+                          text-align: left;
                         "
                       >
                         <img
@@ -144,6 +128,8 @@
                           width="140rem"
                           class="logo"
                         />
+                      </td>
+                      <td style="text-align: right">
                         <button
                           class="accountBtn"
                           style="
@@ -271,14 +257,10 @@
               style="
                 color: #384860;
                 width: 95%;
-                display: flex;
-                flex-direction: column;
                 margin: 0 auto;
                 padding: 1.3rem 0;
                 border-top: 3px solid #0e93ea;
                 background-color: #fff;
-                justify-content: center;
-                align-items: center;
               "
             >
               <tr>
@@ -312,20 +294,15 @@
               "
             >
               <tr>
-                <td
-                  style="
-                    display: flex;
-                    justify-content: space-between;
-                    background-color: #fafbfc;
-                    border-radius: 0.4em;
-                  "
-                >
+                <td style="background-color: #fafbfc; border-radius: 0.4em">
                   <p style="padding: 0 1em">Order ID: 428</p>
+                </td>
+                <td style="text-align: right">
                   <p style="padding: 0 1em">Date Added: 11/10/2023</p>
                 </td>
               </tr>
               <tr>
-                <td>
+                <td colspan="2">
                   <h3 style="padding: 0.6em">
                     Your order has been updated to the following status:
                   </h3>
@@ -333,28 +310,28 @@
               </tr>
               <tr>
                 <td
+                  colspan="2"
                   style="
-                    display: flex;
                     background-color: #fbe7e7;
                     border-radius: 0.4em;
-                    padding: 0 1em;
+                    padding: 1em 1em;
                     margin-bottom: 1rem;
                   "
                 >
                   <img src="../Images/cancel-sign.svg" alt="cancel sign" />
-                  <p style="padding: 0 1em">Cancelled</p>
+                  <p style="padding: 0 1em; display: inline">Cancelled</p>
                 </td>
               </tr>
 
               <tr>
-                <td>
+                <td colspan="2">
                   <hr
                     style="border-top: 1px solid #e2e8f0; margin: 1.9rem 0rem"
                   />
                 </td>
               </tr>
               <tr>
-                <td style="padding-left: 0.6em">
+                <td colspan="2" style="padding-left: 0.6em">
                   <h3>Hi Joe Smith 👋,</h3>
                   <p>
                     We write to inform you that we have had to cancel your order
@@ -367,14 +344,14 @@
                 </td>
               </tr>
               <tr>
-                <td>
+                <td colspan="2">
                   <hr
                     style="border-top: 1px solid #e2e8f0; margin: 1.9rem 0rem"
                   />
                 </td>
               </tr>
               <tr>
-                <td style="padding-left: 0.6em">
+                <td colspan="2" style="padding-left: 0.6em">
                   <p>
                     Please click on the following button below to view more
                     information on the reason for the cancellation.
@@ -402,14 +379,14 @@
                 </td>
               </tr>
               <tr>
-                <td>
+                <td colspan="2">
                   <hr
                     style="border-top: 1px solid #e2e8f0; margin: 1.9rem 0rem"
                   />
                 </td>
               </tr>
               <tr>
-                <td>
+                <td colspan="2">
                   <p style="color: #d7dce2">Reply</p>
                   <p>Please reply to this e-mail if you have any questions.</p>
                 </td>
@@ -431,13 +408,7 @@
           >
             <table
               class="footerActions"
-              style="
-                width: 90%;
-                display: flex;
-                justify-content: space-around;
-                margin: 0 auto;
-                margin-bottom: 2rem;
-              "
+              style="width: 90%; margin: 0 auto; margin-bottom: 2rem"
             >
               <tr>
                 <td>
